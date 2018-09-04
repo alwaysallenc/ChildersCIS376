@@ -1,8 +1,6 @@
 body{
   background-color: rgb(179, 192, 211);
-  border: solid 1px #000;
-  height: 100px;
-  width:auto;
+  border: solid 1px;
   padding: 2px;
   margin: 3px;
 }
