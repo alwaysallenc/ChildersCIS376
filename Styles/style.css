@@ -1,5 +1,7 @@
 body{
   background-color: rgb(179, 192, 211);
+  border: solid 1px #100;
+  height: 200px;
 }
 img{
   height: 25%;
