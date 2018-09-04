@@ -5,6 +5,9 @@ img{
   height: 25%;
   width: 25%;
 }
+h1{
+  font-family: Helvetica, Arial;
+}
 h2{
   font-family: Arial, Helvetica, sans-serif;
 }
