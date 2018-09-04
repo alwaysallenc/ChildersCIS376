@@ -1,10 +1,10 @@
 body{
   background-color: rgb(179, 192, 211);
   border: solid 1px #000;
-  height: auto;
+  height: 100px;
   width:auto;
-  padding: 4px;
-  margin: 7px;
+  padding: 2px;
+  margin: 3px;
 }
 img{
   height: 25%;
