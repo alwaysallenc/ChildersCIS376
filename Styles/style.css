@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(179, 192, 211);
+  background-color: rgb(169, 186, 214);
 
 }
 
@@ -11,7 +11,7 @@ h1{
 h2{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin: 1px;
+  margin: 1px
 }
 #nameTitle{
   height:100px;
@@ -48,12 +48,12 @@ img.image2{
   height: 650px;
   width: 500px;
 }
-h3{
+p.para1{
   position: absolute;
-  top: 80%;
+  bottom: 10%;
   left: 40%;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #bottom{
   font-size: 40px;
