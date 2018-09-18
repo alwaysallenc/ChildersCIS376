@@ -13,14 +13,14 @@ h2{
   margin: 1px
 }
 .nameTitle{
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .navigation {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   border: 5px solid black;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 img.image1{
@@ -47,32 +47,44 @@ p.webDev{
   font-size: 60px;
   text-decoration: underline;
 }
-#center{
- font-size: 40px;
+#code{
+  float: right;
 }
 img.imgCode{
   width: 1200px;
   float: right;
 }
-#social{
-  vertical-align: middle;
-
+#codeCaption{
+  font-size: 25px;
 }
+#center{
+ font-size: 40px;
+}
+#social{
+display:flex;
+align-items: center;
+margin: 0 auto;
+padding: 0px;
+width: auto;
+}
+
 img.git{
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 img.tweet{
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 img.insta{
-  height: 125px;
-  width: 125px;
+  height: 75px;
+  width: 75px;
 }
 #bottom{
   font-size: 40px;
-  position: relative;
+  position: realtive;
   bottom: 0px;
   margin: 0 auto;
+  height: 100px;
+  width: auto;
 }
