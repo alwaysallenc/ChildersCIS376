@@ -1,6 +1,5 @@
 body{
   background-color: rgb(169, 186, 214);
-
 }
 
 h1{
@@ -13,16 +12,17 @@ h2{
   font-size: 40px;
   margin: 1px
 }
-#nameTitle{
-  height:100px;
-  width: 75%;
-
+.nameTitle{
+  margin-bottom: 5px;
 }
-#navHeader{
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   border: 5px solid black;
-  margin-top: 20px;
-
+  margin-top: 5px;
 }
+
 img.image1{
   height: 400px;
   width:400px;
@@ -39,25 +39,40 @@ img.image1{
   margin-top: 250px;
 }
 
-#canyon{
-  position: absolute;
-  left:20%;
-    width: 250px;
-}
 img.image2{
   height: 650px;
   width: 500px;
 }
-p.para1{
-  position: absolute;
-  bottom: 10%;
-  left: 40%;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+p.webDev{
+  font-size: 60px;
+  text-decoration: underline;
+}
+#center{
+ font-size: 40px;
+}
+img.imgCode{
+  width: 1200px;
+  float: right;
+}
+#social{
+  vertical-align: middle;
+
+}
+img.git{
+  height: 200px;
+  width: 200px;
+}
+img.tweet{
+  height: 200px;
+  width: 200px;
+}
+img.insta{
+  height: 125px;
+  width: 125px;
 }
 #bottom{
   font-size: 40px;
-  position: fixed;
+  position: relative;
   bottom: 0px;
   margin: 0 auto;
 }
