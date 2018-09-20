@@ -1,10 +1,12 @@
 body{
   background-color: rgb(169, 186, 214);
+  background-image: linear-gradient(rgb(111, 161, 247),rgb(225, 233, 247));
 }
 
 h1{
-  font-family: Helvetica, Arial;
-  margin-top: 4px;
+  margin-top: 0px;
+  margin-left: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 120px;
 }
 h2{
@@ -13,32 +15,50 @@ h2{
   margin: 1px
 }
 .nameTitle{
+  margin-top: 3px;
   margin-bottom: 0px;
+  height: 130px;
+}
+.nameItem{
+  font-size: 30px;
+  float: right;
 }
 .navigation {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
+  flex-flow: nowrap;
   border: 5px solid black;
-  margin-top: 0px;
+  background-color: rgb(111, 161, 247);
+}
+.menuItem{
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a:link{
+  color: black;
+}
+.menuItem:hover{
+  background-color: rgb(183, 201, 232);
 }
 
 img.image1{
-  height: 400px;
-  width:400px;
+  height: 450px;
+  width:450px;
 }
 #picMe{
   float:left;
   height: 400px;
-  width: 450px;
+  width: 500px;
   margin-top: 10px;
   margin-right: 0px;
 }
 #ul1{
-  font-size: 30px;
-  margin-top: 250px;
+  font-size: 45px;
+  margin-top: 180px;
 }
-
+#about{
+  text-decoration: underline;
+}
 img.image2{
   height: 650px;
   width: 500px;
@@ -49,13 +69,15 @@ p.webDev{
 }
 #code{
   float: right;
+  width: 1200px;
 }
+
 img.imgCode{
   width: 1200px;
   float: right;
 }
 #codeCaption{
-  font-size: 25px;
+  font-size: 30px;
 }
 #center{
  font-size: 40px;
