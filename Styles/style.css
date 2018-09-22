@@ -110,3 +110,63 @@ img.insta{
   height: 100px;
   width: auto;
 }
+/* about me */
+#leftPane{
+  display: flex;
+  height: auto;
+  width: 33%;
+  float: left;
+}
+img.baseball{
+  height: 900px;
+  float:left;
+  width:70%;
+  margin: 7px;
+}
+img.grand{
+  margin-top: 930px;
+  height: 650px;
+  width: 1000px;
+  float: right;
+  margin-right: 400px;
+}
+#aboutMeLarge{
+  height: auto;
+  width: 33%;
+  display: flex;
+  float: left;
+   text-align: center;
+   font-size: 60px;
+   font-family: 'Roboto Condensed', sans-serif;
+   padding: 10px;
+}
+#rightPane{
+  display: flex;
+  float: left;
+  height: auto;
+  width: 33%;
+}
+@media screen and (max-width: 600px) {
+    #threeColumn {
+        width: 100%;
+    }
+
+
+
+
+
+/* WebDev Page */
+
+#aboutPara{
+  margin: 10px;
+  width: 50%;
+  font-size: 40px;
+}
+
+#codeLarge{
+  float: left;
+  width: 60%;
+}
+#codeLargeCaption{
+  font-size: 50px;
+}
